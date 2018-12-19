@@ -1,9 +1,6 @@
 namespace: mu-64
-environments:
-- name: acceptance
-- name: production
 service:
-  name: qs
+  name: extension
   port: 80
   healthEndpoint: /
   pathPatterns:
