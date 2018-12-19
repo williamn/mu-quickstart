@@ -1,0 +1,11 @@
+namespace: mu-64
+environments:
+- name: acceptance
+- name: production
+service:
+  name: qs
+  port: 80
+  healthEndpoint: /
+  pathPatterns:
+  - /*
+  pipeline:
